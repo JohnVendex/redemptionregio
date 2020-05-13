@@ -1,0 +1,71 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+
+
+.designyo{
+    
+    position: absolute;
+    text-align: left;
+    padding-top: 50px;
+    left: 100px;
+    font-size: 70px;
+    color: greenyellow;
+    font-style: italic;
+}
+
+.nismo{
+    position: fixed;
+}
+
+.but1 {
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: sticky;
+    left: 190px;
+    margin-top: 300px;
+}
+
+.but1:hover{
+    background-color: #3e8e41
+}
+.but1:active{
+
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
