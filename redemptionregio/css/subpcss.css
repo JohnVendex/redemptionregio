@@ -1,0 +1,43 @@
+
+
+
+
+#color{
+    position: absolute;
+    top: 430px;
+    left: 50px;
+}
+.randomcolor{
+    position: absolute;
+    top: 530px;
+    left: 50px;
+}
+
+
+.gtr{
+   
+    max-width: 100%;
+    max-height: 90%;
+    display: block;
+    margin: 0px;
+}
+
+.diy{
+    position: absolute;
+    left: 140px;
+    top: 110px;
+    font-size: 60px;
+    font-style: italic;
+}
+.scolor{
+    position: absolute;
+    left: 40px;
+    top: 380px;
+    font-style: italic;
+}
+.grcolor{
+    position: absolute;
+    left: 40px;
+    top: 480px;
+    font-style: italic;
+}
